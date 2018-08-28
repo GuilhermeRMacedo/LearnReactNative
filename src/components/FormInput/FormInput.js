@@ -22,10 +22,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: "space-between",
         alignItems: "center",
-        width: "100%"
+        width: "100%",
+        marginTop: 10
     }, 
     placeInput: {
-        width: "70%"
+        width: "70%",
+        color: '#fff'
     },
     placeButton: {
         width: "30%"
