@@ -10,7 +10,6 @@ import placeImage from './src/assets/Mont-Saint-Michel-FRA.jpg'
 
 export default class App extends React.Component {
   state = {
-    placeName: "",
     places: [],
     selectedPlace: null
   }
@@ -23,7 +22,7 @@ export default class App extends React.Component {
 
   placeSubmitHandler = () => {
     if (this.state.placeName.trim() === "") {
-      return;
+      return ;
     }
     this.setState(prevState => {
       return {
@@ -74,7 +73,7 @@ export default class App extends React.Component {
         <FormInput
           value={this.state.placeName}
           nameChangedHandler={this.placeNameChangedHandler}
-          title="add"
+          title="  +  "
           submitHandler={this.placeSubmitHandler}
         />
         <List

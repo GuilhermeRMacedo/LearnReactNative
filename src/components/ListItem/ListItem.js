@@ -14,12 +14,11 @@ const styles = StyleSheet.create({
     listItem: {
         width: "100%",
         padding: 10,
-        //marginBottom: 5,
         marginTop: 5,
         backgroundColor: "#fff",
         flexDirection: "row",
         alignItems: "center",
-        borderRadius: 15
+        borderRadius: 3
     },
     placeImage: {
         marginRight: 8,

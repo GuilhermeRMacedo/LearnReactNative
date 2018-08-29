@@ -8,11 +8,13 @@ const formInput = (props) => (
             placeholder="An awesome place"
             value={props.value}
             onChangeText={props.nameChangedHandler}
+            underlineColorAndroid="#990099"
         />
         <Button
             style={styles.placeButton} 
             title={props.title} 
             onPress={props.submitHandler}
+            color= "#990099"
         />
     </View>
 );
@@ -27,7 +29,8 @@ const styles = StyleSheet.create({
     }, 
     placeInput: {
         width: "70%",
-        color: '#fff'
+        color: '#fff',
+        padding: 5
     },
     placeButton: {
         width: "30%"
