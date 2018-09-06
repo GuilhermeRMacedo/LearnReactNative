@@ -1,4 +1,4 @@
-import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DISELECT_PLACE, CHANGE_PLACE} from './actionTypes'
+import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DESELECT_PLACE, CHANGE_PLACE} from './actionTypes'
 
 export const addPlace = () =>{
     
@@ -22,7 +22,7 @@ export const selectPlace = (key) => {
 
 export const deselectPlace = () => {
     return{
-        type: DISELECT_PLACE
+        type: DESELECT_PLACE
     };
 };
 

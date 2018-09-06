@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   placeSelectedHandler = (key) => {
-    this.props.deselectPlace(key)
+    this.props.onSelectedPlace(key)
   }
 
   placeDeletedHandler = () => {
@@ -29,7 +29,7 @@ class App extends React.Component {
   }
 
   modalClosedHadler = () => {
-    this.props.deselectPlace();
+    this.props.onDeselectedPlace();
   }
 
   render() {

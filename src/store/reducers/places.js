@@ -3,7 +3,7 @@ import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DESELECT_PLACE, CHANGE_PLACE } f
 import placeImage from '../../assets/Mont-Saint-Michel-FRA.jpg'
 
 const initialState = {
-    placeName: 'alexa',
+    placeName: '',
     places: [],
     selectedPlace: null
 }
@@ -11,10 +11,8 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_PLACE:
-            console.log("entrando 3")
             return {
-                //spread operator
-                ...state,//estado antigo copiado
+                ...state,
                 places: state.places.concat({
                     key: Math.random().toString(),
                     name: state.placeName,
