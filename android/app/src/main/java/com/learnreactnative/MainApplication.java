@@ -3,7 +3,7 @@ package com.learnreactnative;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.smixx.reactnativeicons.ReactNativeIcons;
+//import com.smixx.reactnativeicons.ReactNativeIcons;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
