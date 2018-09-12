@@ -23,14 +23,15 @@ const placeDetail = (props) => {
             <View style={styles.modalContainer}>
                 {modalContent}
                 <View>
-                    <TouchableOpacity>
-                        <Icon size={30} name="ios-trash" color="red"/>
+                    <TouchableOpacity onPress={props.onItemDeleted}>
+                        <View style={styles.deleteButton}>
+                            <Icon size={30} name="ios-trash" color="red" />
+                        </View>
                     </TouchableOpacity>
-                    {/*<Button title="Delete" color="red" onPress={props.onItemDeleted} />*/}
-                    <Button title="Close" onPress={props.onModalClosed} />
-                </View>
+                <Button title="Close" onPress={props.onModalClosed} />
             </View>
-        </Modal>
+            </View>
+        </Modal >
     )
 }
 
@@ -46,6 +47,9 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         textAlign: "center",
         fontSize: 28
+    },
+    deleteButton: {
+        alignItems: "center"
     }
 })
 
