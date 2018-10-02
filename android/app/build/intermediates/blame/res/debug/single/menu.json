@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\guilh\\Documents\\ReactNative\\learnReactNative\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_item.xml",
+        "source": "C:\\Users\\guilh\\Documents\\ReactNative\\learnReactNative\\android\\app\\build\\intermediates\\exploded-aar\\learnReactNative\\react-native-navigation\\unspecified\\res\\menu\\search_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\guilh\\Documents\\ReactNative\\learnReactNative\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stub.xml",
+        "source": "C:\\Users\\guilh\\Documents\\ReactNative\\learnReactNative\\android\\app\\build\\intermediates\\exploded-aar\\learnReactNative\\react-native-navigation\\unspecified\\res\\menu\\stub.xml"
+    }
+]
