@@ -1,1 +1,2 @@
-export {addPlace, deletePlace, selectPlace, deselectPlace, changePlace} from './places'
+//removed(selectPlace, deselectPlace, changePlace)
+export {addPlace, deletePlace} from './places'
